@@ -24,8 +24,7 @@ async function run() {
   });
 
   // Write your prompt here
-  const prompt =
-    "generate a web development content, tips and tricks or something new or some rant or some advice as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+  const prompt ="Generate a tweet for a founder brand in tech/AI—focused on lessons from self-learning, building a startup, mindset shifts, or practical advice for non-technical creators. Keep it original, specific (not vague), under 280 characters, and in plain text. Use emojis if it enhances clarity.";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
